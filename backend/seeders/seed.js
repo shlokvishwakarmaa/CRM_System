@@ -36,6 +36,15 @@ const seedDatabase = async () => {
         isActive: true,
       },
       {
+        name: 'Priya Patel',
+        email: 'priya@leadcrm.in',
+        password: 'manager123',
+        role: 'sales_manager',
+        phone: '+91 98765 43211',
+        department: 'Sales',
+        isActive: true,
+      },
+      {
         name: 'Amit Kumar',
         email: 'amit@leadcrm.in',
         password: 'executive123',
