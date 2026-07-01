@@ -1,3 +1,5 @@
+//There we added some seed user to create some automated data in the CRM //
+
 import type { User, Lead, Contact, Customer, Opportunity, Ticket } from '@/types';
 
 // ============== SEED USERS ==============
