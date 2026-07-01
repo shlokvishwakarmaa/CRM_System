@@ -111,41 +111,7 @@ leadcrm/
 │   ├── package.json
 │   └── vite.config.ts
 │
-└── backend/                    # Node.js backend API
-    ├── config/
-    │   └── database.js         # MongoDB connection
-    ├── controllers/            # Business logic
-    │   ├── authController.js
-    │   ├── leadController.js
-    │   ├── contactController.js
-    │   ├── customerController.js
-    │   ├── opportunityController.js
-    │   ├── ticketController.js
-    │   └── userController.js
-    ├── middleware/
-    │   ├── auth.js             # JWT & RBAC middleware
-    │   └── errorHandler.js
-    ├── models/                 # Mongoose schemas
-    │   ├── User.js
-    │   ├── Lead.js
-    │   ├── Contact.js
-    │   ├── Customer.js
-    │   ├── Opportunity.js
-    │   └── Ticket.js
-    ├── routes/                 # API routes
-    │   ├── authRoutes.js
-    │   ├── leadRoutes.js
-    │   ├── contactRoutes.js
-    │   ├── customerRoutes.js
-    │   ├── opportunityRoutes.js
-    │   ├── ticketRoutes.js
-    │   └── userRoutes.js
-    ├── seeders/
-    │   └── seed.js             # Database seeder
-    ├── .env.example
-    ├── package.json
-    ├── README.md
-    └── server.js               # Express server
+└── backend/                  
 ```
 
 ## 🚀 Getting Started
