@@ -1,3 +1,7 @@
+//Dashboard shows that the all the summary details of all types of leads, pipeline data, Active customer, won revenue etc. //
+
+
+
 import { useState, useEffect } from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { leadsApi, customersApi, opportunitiesApi, ticketsApi, usersApi } from '@/utils/api';
