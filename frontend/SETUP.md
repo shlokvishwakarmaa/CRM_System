@@ -28,15 +28,6 @@ npm run dev
 # 3. Open browser
 http://localhost:5173
 
-# 4. Login with demo credentials
-Admin: rajesh@leadcrm.in / admin123
-Sales Manager: priya@leadcrm.in / manager123
-Sales Executive: amit@leadcrm.in / executive123
-Support Executive: sneha@leadcrm.in / support123
-```
-
-**That's it!** The frontend will work with mock data stored in browser localStorage.
-
 ---
 
 ### Option B: Full Stack (Frontend + Backend + MongoDB)
@@ -147,13 +138,8 @@ npm run dev
 
 1. **Open Browser**: Navigate to `http://localhost:5173`
 
-2. **Login**: Use any of these credentials:
-   - **Admin**: `rajesh@leadcrm.in` / `admin123`
-   - **Sales Manager**: `priya@leadcrm.in` / `manager123`
-   - **Sales Executive**: `amit@leadcrm.in` / `executive123`
-   - **Support Executive**: `sneha@leadcrm.in` / `support123`
 
-3. **Test Features**:
+2. **Test Features**:
    - ✅ Dashboard loads with Indian data
    - ✅ Navigate to Leads page
    - ✅ Create a new lead
@@ -407,4 +393,4 @@ Next steps:
 - Deploy to production
 - Add custom integrations
 
-**Happy CRM building!** 🚀
+
