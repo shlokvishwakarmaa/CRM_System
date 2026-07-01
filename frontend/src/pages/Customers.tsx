@@ -1,3 +1,8 @@
+// This is the code for adding Customer details and managing customer data //
+
+
+
+
 import { useState, useEffect, useCallback } from 'react';
 import { customersApi, usersApi } from '@/utils/api';
 import { formatINR, formatDate, getAccountStatusColor, getAvatarColor } from '@/utils/helpers';
