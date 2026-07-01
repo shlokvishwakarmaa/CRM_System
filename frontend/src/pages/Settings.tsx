@@ -1,3 +1,5 @@
+// this is the detail code for settings//
+
 import { useState } from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { getRoleLabel, getInitials, getAvatarColor } from '@/utils/helpers';
