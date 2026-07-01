@@ -1,3 +1,5 @@
+// this is a detail code for opportunities which includes qualification, prospecting, proposal, negotiation, closed won  //
+
 import { useState, useEffect, useCallback } from 'react';
 import { opportunitiesApi, customersApi, usersApi } from '@/utils/api';
 import { formatINR, formatDate, getPipelineStageColor } from '@/utils/helpers';
