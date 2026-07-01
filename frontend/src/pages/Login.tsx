@@ -1,3 +1,5 @@
+// this is the detail code of login page & complete layout of login page //
+
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '@/context/AuthContext';
