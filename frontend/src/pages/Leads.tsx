@@ -1,3 +1,6 @@
+// This is the details of leads, that added the lead data //
+
+
 import { useState, useEffect, useCallback } from 'react';
 import { leadsApi, usersApi } from '@/utils/api';
 import { formatINR, formatDate, getLeadStatusColor, getInitials, getAvatarColor } from '@/utils/helpers';
