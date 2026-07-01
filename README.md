@@ -1,10 +1,10 @@
 **Core Functions**
 Authentication Function
 
-Purpose:
+**Purpose:**
 Handles user login and authentication.
 
-Description:
+**Description:**
 The authentication function verifies the user's email and password. If the credentials are correct, it generates a JWT (JSON Web Token) and stores it in an HTTP-only cookie. This allows secure access to protected routes without requiring the user to log in repeatedly.
 
 **Key Features**
@@ -13,12 +13,14 @@ User Login
 Password Verification
 JWT Token Generation
 Secure Session Management
-User Registration Function
 
-Purpose:
+
+**User Registration Function**
+
+**Purpose:**
 Creates a new user account.
 
-Description:
+**Description:**
 This function validates user input, checks whether the email already exists, encrypts the password using hashing, and stores the new user in the database.
 
 **Key Features**
@@ -29,10 +31,10 @@ Password Encryption
 Database Storage
 Authorization Function
 
-Purpose:
+**Purpose:**
 Controls access based on user roles.
 
-Description:
+**Description:**
 After authentication, this function checks the user's role (Admin, Sales Manager, Sales Executive, Support Executive) and grants or denies access to specific resources.
 
 **Key Features**
@@ -40,12 +42,13 @@ After authentication, this function checks the user's role (Admin, Sales Manager
 Role-Based Access Control (RBAC)
 Permission Verification
 Protected Routes
-Lead Management Function
 
-Purpose:
+**Lead Management Function**
+
+**Purpose:**
 Manages customer leads.
 
-Description:
+**Description:**
 Allows users to create, update, view, search, and delete leads. Leads can later be converted into customers when they are successfully qualified.
 
 **Key Features**
@@ -55,12 +58,13 @@ Update Lead
 Delete Lead
 Search Lead
 Lead Status Management
-Customer Management Function
 
-Purpose:
+**Customer Management Function**
+
+**Purpose:**
 Maintains customer records.
 
-Description:
+**Description:**
 Stores complete customer information in a centralized database. Users can update contact information, view customer history, and manage customer profiles efficiently.
 
 **Key Features**
@@ -69,12 +73,13 @@ Customer Registration
 Customer Profile Management
 Contact Information
 Customer History
-Opportunity Management Function
 
-Purpose:
+**Opportunity Management Function**
+
+**Purpose:**
 Tracks sales opportunities.
 
-Description:
+**Description:**
 This module monitors the progress of potential business deals from initial proposal to final closure.
 
 Stages
@@ -84,7 +89,8 @@ Qualification
 Proposal
 Negotiation
 Won / Lost
-Ticket Management Function
+
+**Ticket Management Function**
 
 Purpose:
 Handles customer support requests.
@@ -100,10 +106,10 @@ Resolved
 Closed
 Dashboard Function
 
-Purpose:
+**Purpose:**
 Displays overall CRM statistics.
 
-Description:
+**Description:**
 The dashboard collects data from different modules and presents important business information using cards and charts.
 
 Displays
@@ -115,21 +121,21 @@ Open Opportunities
 Pending Tickets
 Search Function
 
-Purpose:
+**Purpose:**
 Provides quick data retrieval.
 
-Description:
+**Description:**
 Allows users to search customers, leads, contacts, and tickets using keywords or filters, reducing the time required to locate records.
 
 Report Generation Function
 
-Purpose:
+**Purpose:**
 Generates business reports.
 
-Description:
+**Description:**
 Collects data from different CRM modules and presents useful insights that help management analyze business performance.
 
-Reports Include
+**Reports Include**
 
 Sales Report
 Customer Report
@@ -145,13 +151,13 @@ Initializes the MongoDB connection using Mongoose. If the connection is successf
 
 API Request Handling
 
-Purpose:
+**Purpose:**
 Processes HTTP requests.
 
-Description:
+**Description:**
 The backend exposes RESTful APIs that allow the frontend to perform CRUD (Create, Read, Update, Delete) operations on CRM data.
 
-HTTP Methods
+**HTTP Methods**
 
 GET – Retrieve Data
 POST – Create Data
@@ -159,18 +165,18 @@ PUT – Update Data
 DELETE – Remove Data
 Error Handling Function
 
-Purpose:
+**Purpose:**
 Handles runtime errors gracefully.
 
-Description:
+**Description:**
 Captures exceptions and sends meaningful error responses to the client without crashing the server.
 
-Security Middleware
+**Security Middleware**
 
-Purpose:
+**Purpose:**
 Protects the application from common web vulnerabilities.
 
-Includes
+**Includes**
 
 JWT Authentication
 Helmet Security Headers
