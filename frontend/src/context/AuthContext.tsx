@@ -1,3 +1,6 @@
+//this is the detail code of authentication Context //
+
+
 import { createContext, useContext, useState, useEffect, useCallback, type ReactNode } from 'react';
 import type { UserRole, AuthState } from '@/types';
 import { authApi, initializeData } from '@/utils/api';
