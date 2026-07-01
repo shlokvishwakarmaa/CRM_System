@@ -1,4 +1,4 @@
-//this is the detail code for ticket in which you can raise your problem  //
+//this is the detail code for ticket in which you can raise your problem  // 
 
 import { useState, useEffect, useCallback } from 'react';
 import { ticketsApi, customersApi, usersApi } from '@/utils/api';
