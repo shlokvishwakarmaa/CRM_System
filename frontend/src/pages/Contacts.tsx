@@ -1,3 +1,6 @@
+// This is the code for contacts detail //
+
+
 import { useState, useEffect, useCallback } from 'react';
 import { contactsApi } from '@/utils/api';
 import { formatDate, getInitials, getAvatarColor } from '@/utils/helpers';
@@ -285,3 +288,5 @@ export default function ContactsPage() {
     </div>
   );
 }
+
+
